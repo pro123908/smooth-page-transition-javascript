@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.nav-list {
+  height: 10vh;
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.8rem;
+}
+
+.home,
+.about {
+  height: 90vh;
+  position: absolute;
+  width: 100%;
+}
+
+.home-content,
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.home-content img,
+.about-content img {
+  height: 70%;
+}
+.home-content h1,
+.about-content h1 {
+  font-size: 5rem;
+  margin: 3rem 0;
+}
+.home-content p,
+.about-content p {
+  font-size: 2rem;
+}
+
+.home {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.about {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+/*# sourceMappingURL=/style.ff1c4cab.css.map */
